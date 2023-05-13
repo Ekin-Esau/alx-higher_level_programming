@@ -18,7 +18,7 @@ if __name__ == "__main__":
         exit(1)
     
     if operator == "+":
-        print("{:d} + {:d} = {:d}".format(a, b, add(a,b)))
+        print("{} {} {} = {}".format(a, operator[0], b, add(a,b)))
     elif operator == "-":
         print(f"{a} + {b} = {sub(a, b)}")
     elif operator == "*":
