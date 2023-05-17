@@ -5,6 +5,3 @@ def uniq_add(my_list=[]):
         if i in my_list and i not in new_list:
             new_list.append(i)
     return sum(new_list)
-
-
-
