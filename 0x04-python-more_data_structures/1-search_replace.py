@@ -2,5 +2,7 @@
 def rearch_replace(my_list, search, replace):
     if len(my_list) == 0:
         return my_list
-    my_list = [[search = replace for i in j] for j in my_listi]
+    for i in my_list:
+        i.replace(search, replace)
     return my_list
+
